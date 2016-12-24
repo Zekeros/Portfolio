@@ -54,9 +54,13 @@ a:hover ~ .dent {
   and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3) {
 		body {
-			background-color: red;
+			/*background-color: red;*/
 			font-size: 35px;
 			}
+		#projects {
+			width: 50%;
+			text-align: center;
+		}
 }
 
 /* Portrait */
