@@ -49,3 +49,15 @@
 		 	position: absolute;
 		 }
 }
+
+@media only screen
+   and (min-width : 1600px) {
+		body {
+		 background-color: red;
+		 font-size: 35px;
+		}
+		#projects {
+		 width: 50%;
+		 text-align: center;
+		}
+	}
