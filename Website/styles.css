@@ -9,6 +9,10 @@
 	 	visibility: hidden;
 	 }
 
+	 .pro {
+		 visibility: hidden;
+	 }
+
 	 a {
 	 	text-decoration: none;
 	 	color: inherit;
@@ -33,6 +37,7 @@
 	 	/*position: fixed;*/
 	 	width: 50%;
 	 	height: 80%;
+		margin: auto;
 	 	float: left;
 	 	text-align: center;
 	 	vertical-align: middle;
