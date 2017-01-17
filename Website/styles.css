@@ -33,7 +33,7 @@
 
  #projects {
  	/*background-color: grey;*/
- 	width: 20%;
+ 	width: auto;
  	float: right;
  }
 
@@ -45,8 +45,8 @@
  	/*float: left;*/
  	text-align: center;
  	vertical-align: middle;
- 	/*margin-left: 10%;*/
-  display: none;
+ 	margin-left: 20%;
+  display: block;
  }
 
  #footer {
