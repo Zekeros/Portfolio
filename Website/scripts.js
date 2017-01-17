@@ -10,10 +10,16 @@ $(document).ready(function() {
       });
     });
   });
-// Sets content box to hidden
-  $("#content").fadeOut('fast', function() {
 
+  $("#mainBar").fadeIn("slow", function() {
+    $("#projects").fadeIn("slow", function() {
+      $("#footer").fadeIn("slow", function() {
+
+      });
+    });
   });
+
+
  // Bounce Hover Box
   $(".pro1").hover(function() {
     // $("#content").css('background-image', 'url("Website\assets\bounce.gif")');
