@@ -22,28 +22,16 @@ $(document).ready(function() {
 
  // Bounce Hover Box
   $(".pro1").hover(function() {
-    // $("#content").css('background-image', 'url("Website\assets\bounce.gif")');
-    // $("#content").fadeIn("fast", function() {
-      $("#content").html("Bounce");
-    // });
+    $(".projectTitle").text("B O U N C E");
   }, function() {
-    $("#content").empty();
-    // $("#content").fadeOut("fast", function() {
-
-    // });
+    $(".projectTitle").empty();
   });
 
   // Snow Hover Box
-   $(".pro2").hover(function() {
-     $("#content").empty();
-    //  $("#content").fadeIn("fast", function() {
-       $("#content").html("Snow");
-    //  });
-   }, function() {
-     $("#content").empty();
-    //  $("#content").fadeOut("fast", function() {
-
-    //  });
-   });
+  $(".pro2").hover(function() {
+    $(".projectTitle").text("S N O W");
+  }, function() {
+    $(".projectTitle").empty();
+  });
 
 });
