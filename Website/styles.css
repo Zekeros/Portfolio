@@ -13,6 +13,11 @@
 	 display: none;
  }
 
+ .proList {
+   cursor: pointer;
+   width: auto;
+ }
+
  a {
  	text-decoration: none;
  	color: inherit;
